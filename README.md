@@ -50,38 +50,43 @@ https://huggingface.co/docs/diffusers/main/en/api/pipelines/stable_diffusion/sta
 
 ### プロンプト
 
-    ```TEXT:CLIP用プロンプト
-    Photorealistic graphics of a girl with long blue hair stands in front of a spaceship
-    window, gazing outside. The scene captures her back view, emphasizing her contemplative
-    posture as she admires the vastness of space.
-    ```
-    ```TEXT:T5-XXL用プロンプト
-    She is wearing a large white hat and a white dress. Outside the window, a vibrant galaxy
-    is visible, filled with colorful stars and cosmic phenomena. The scene captures her back
-    view, emphasizing her contemplative posture as she admires the vastness of space. 
-    The interior of the spaceship is simply constructed in metallic colors, and her figure
-    floating in the dimness is impressive. The walls of the ship have a metallic sheen 
-    and glow dully in the dim light.
-    ```
+CLIP用プロンプト
+```TEXT:CLIP用プロンプト
+Photorealistic graphics of a girl with long blue hair stands in front of a spaceship
+window, gazing outside. The scene captures her back view, emphasizing her contemplative
+posture as she admires the vastness of space.
+```
+T5-XXL用プロンプト
+```TEXT:T5-XXL用プロンプト
+She is wearing a large white hat and a white dress. Outside the window, a vibrant galaxy
+is visible, filled with colorful stars and cosmic phenomena. The scene captures her back
+view, emphasizing her contemplative posture as she admires the vastness of space. 
+The interior of the spaceship is simply constructed in metallic colors, and her figure
+floating in the dimness is impressive. The walls of the ship have a metallic sheen 
+and glow dully in the dim light.
+```
 
-    日本語に翻訳するとこんな感じです。
-    ```TEXT:CLIP用プロンプト（日本語訳）
-    長い青い髪の少女が宇宙船の窓の前に立ち、外を見つめているフォトリアリスティックなグラフィック。
-    彼女の後ろ姿をとらえたこのシーンは、広大な宇宙を眺める彼女の瞑想的な姿勢を強調しています。
-    ```
-    ```TEXT:T5-XXL用プロンプト（日本語訳）
-    彼女は大きな白い帽子をかぶり、白いドレスを着ている。窓の外には、色とりどりの星々と宇宙現象に
-    満ちた、活気に満ちた銀河が見える。このシーンでは彼女の後ろ姿が捉えられており、広大な宇宙に
-    感嘆する彼女の瞑想的な姿勢が強調されている。宇宙船の内部はメタリックカラーでシンプルに構成され、
-    薄闇の中に浮かぶ彼女の姿が印象的だ。船内の壁はメタリックな光沢を放ち、
-    薄明かりの中で鈍く光っている。
-    ```
+日本語に翻訳するとこんな感じです。
+
+CLIP用プロンプト（日本語訳）
+```TEXT:CLIP用プロンプト（日本語訳）
+長い青い髪の少女が宇宙船の窓の前に立ち、外を見つめているフォトリアリスティックなグラフィック。
+彼女の後ろ姿をとらえたこのシーンは、広大な宇宙を眺める彼女の瞑想的な姿勢を強調しています。
+```
+TEXT:T5-XXL用プロンプト（日本語訳）
+```TEXT:T5-XXL用プロンプト（日本語訳）
+彼女は大きな白い帽子をかぶり、白いドレスを着ている。窓の外には、色とりどりの星々と宇宙現象に
+満ちた、活気に満ちた銀河が見える。このシーンでは彼女の後ろ姿が捉えられており、広大な宇宙に
+感嘆する彼女の瞑想的な姿勢が強調されている。宇宙船の内部はメタリックカラーでシンプルに構成され、
+薄闇の中に浮かぶ彼女の姿が印象的だ。船内の壁はメタリックな光沢を放ち、
+薄明かりの中で鈍く光っている。
+```
 
 ### 推論パラメータ
-    - num_inference_steps : 28
-    - guidance_scale : 3.5
-    - height : default(1024)
-    - width : default(1024)
+- num_inference_steps : 28
+- guidance_scale : 3.5
+- height : default(1024)
+- width : default(1024)
 
 ## 実験結果
 
